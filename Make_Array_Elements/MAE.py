@@ -1,5 +1,5 @@
 # # 파일 경로
-# file_path = 'C:\\Users\\82104\\OneDrive\\바탕 화면\\test\\word1.txt'
+# 예시 file_path = 'C:\\Users\\Username\\OneDrive\\바탕 화면\\test\\word1.txt'
 
 # # 파일 열기
 # with open(file_path, 'r', encoding='cp949', errors='ignore') as file:
@@ -7,7 +7,7 @@
 #     for line in file:
 #         print("\""+line.strip()+"\""+ ",", end="") 
 
-file_path = 'C:\\Users\\82104\\OneDrive\\바탕 화면\\test\\word2.txt'
+file_path = 'C:\\Users\\***\\***\\***\\***\\word2.txt' # txt 파일 경로에 맞게 지정 
 
 with open(file_path, 'r', encoding='utf-8', errors='ignore') as file:
     for line in file:
